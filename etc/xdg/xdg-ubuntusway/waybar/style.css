@@ -33,7 +33,7 @@
 #waybar {
     background: @theme_bg_color;
     color: @theme_fg_color;
-    font-family: "Ubuntu", "Font Awesome";
+    font-family: "Ubuntu", "Font Awesome 6 Free", "Font Awesome";
     font-size: 14px;
 }
 
@@ -75,14 +75,19 @@ window#waybar.hidden {
 #clock,
 #custom-playerctl,
 #custom-power,
+#custom-scratchpad,
 #custom-weather,
+#custom-wlsunset,
 #custom-clipboard,
 #custom-menu,
+#custom-dnd,
 #battery,
 #cpu,
 #language,
 #memory,
+#temperature,
 #network,
+#bluetooth,
 #pulseaudio,
 #tray,
 #mode,
@@ -102,6 +107,11 @@ window#waybar.hidden {
     color: @theme_selected_fg_color;
 }
 
+#custom-wlsunset {
+    background: @theme_selected_bg_color;
+    color: @theme_selected_fg_color;
+}
+
 #custom-playerctl {
     background: @theme_selected_bg_color;
     color: @theme_selected_fg_color;
@@ -112,12 +122,22 @@ window#waybar.hidden {
     color: @theme_selected_fg_color;
 }
 
+#custom-scratchpad {
+    background: @theme_selected_bg_color;
+    color: @theme_selected_fg_color;
+}
+
 #custom-clipboard {
     background: @theme_selected_bg_color;
     color: @theme_selected_fg_color;
 }
 
 #custom-menu {
+    background: @theme_selected_bg_color;
+    color: @theme_selected_fg_color;
+}
+
+#custom-dnd {
     background: @theme_selected_bg_color;
     color: @theme_selected_fg_color;
 }
@@ -167,12 +187,22 @@ label:focus {
     color: @theme_selected_fg_color;
 }
 
+#temperature {
+    background: @theme_selected_bg_color;
+    color: @theme_selected_fg_color;
+}
+
 #custom-gpu-usage {
     background: @theme_selected_bg_color;
     color: @theme_selected_fg_color;
 }
 
 #network {
+    background: @theme_selected_bg_color;
+    color: @theme_selected_fg_color;
+}
+
+#bluetooth {
     background: @theme_selected_bg_color;
     color: @theme_selected_fg_color;
 }

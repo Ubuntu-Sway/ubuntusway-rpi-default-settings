@@ -1,4 +1,10 @@
-ubuntusway-default-settings (1.45~jammy) jammy; urgency=medium
+ubuntusway-rpi-default-settings (1.47~lunar) lunar; urgency=medium
+
+  * Initial upload to Lunar
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Wed, 08 Feb 2023 18:25:10 +0400
+
+ubuntusway-rpi-default-settings (1.46~jammy) jammy; urgency=medium
 
   * Run pcmanfm as daemon on starup
   * small fixes
