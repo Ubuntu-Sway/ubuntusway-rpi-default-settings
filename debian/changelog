@@ -1,3 +1,10 @@
+ubuntusway-default-settings (1.45~jammy) jammy; urgency=medium
+
+  * Run pcmanfm as daemon on starup
+  * small fixes
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Wed, 08 Feb 2023 17:57:35 +0400
+
 ubuntusway-default-settings (1.44~jammy) jammy; urgency=medium
 
   * Implement empty-workspace script from Manjaro Sway
