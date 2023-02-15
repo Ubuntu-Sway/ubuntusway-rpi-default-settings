@@ -1,3 +1,10 @@
+ubuntusway-rpi-default-settings (1.49~lunar) lunar; urgency=medium
+
+  * Add Swappy
+  * Remove obsolete sway-unspupported-gpu desktop file
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Thu, 16 Feb 2023 00:16:43 +0400
+
 ubuntusway-rpi-default-settings (1.48~lunar) lunar; urgency=medium
 
   * Enable Lunar Lobster wallpaper
