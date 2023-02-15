@@ -1,3 +1,9 @@
+ubuntusway-rpi-default-settings (1.50~lunar) lunar; urgency=medium
+
+  * Build only for arm64
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Thu, 16 Feb 2023 00:22:45 +0400
+
 ubuntusway-rpi-default-settings (1.49~lunar) lunar; urgency=medium
 
   * Add Swappy
