@@ -18,7 +18,3 @@ export ELM_ACCEL="gl"
 
 # Java XWayland blank screens fix
 export _JAVA_AWT_WM_NONREPARENTING=1
-
-set -a
-source $HOME/.config/user-dirs.dirs
-set +a
